@@ -1,6 +1,11 @@
 class Solution {
 public:
     int climbStairs(int n) {
+        int o=1;
+        if(n==1)
+        {
+            return o;
+        }
       
         int fs=1;
         int ss=2;
